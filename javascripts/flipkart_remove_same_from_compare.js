@@ -28,6 +28,7 @@ function flipkartRemoveSimilar(){
 
 
 
-// javascript:(function(){if(typeof flipkt_cmp_script=='undefined'){   flipkt_cmp_script=document.createElement('SCRIPT'); flipkt_cmp_script.type='text/javascript';   flipkt_cmp_script.src='https://raw.githubusercontent.com/architjain/BookmarkletsStore/master/javascripts/flipkart_remove_same_from_compare.js'; document.getElementsByTagName('head')[0].appendChild(flipkt_cmp_script);}else{  flipkartRemoveSimilar();}})();
-
+/*
+ javascript:(function(){if(typeof flipkt_cmp_script=='undefined'){   flipkt_cmp_script=document.createElement('SCRIPT'); flipkt_cmp_script.type='text/javascript';   flipkt_cmp_script.src='https://rawgit.com/architjain/BookmarkletsStore/master/javascripts/flipkart_remove_same_from_compare.js'; document.getElementsByTagName('head')[0].appendChild(flipkt_cmp_script);}else{  flipkartRemoveSimilar();}})();
+*/
 
