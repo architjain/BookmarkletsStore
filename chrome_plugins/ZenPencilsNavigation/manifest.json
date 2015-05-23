@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "description": "Add next/prev button to zenpencils.com !",
     "content_scripts" : [{
-        "matches" : [ "http://zenpencils.com/comic/*"],
+        "matches" : [ "http://zenpencils.com/*"],
         "js" : ["zenpencils_navigation.js"]
     }]
 }

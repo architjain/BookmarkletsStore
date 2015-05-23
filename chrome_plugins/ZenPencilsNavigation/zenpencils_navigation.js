@@ -13,8 +13,15 @@ function createBtn(text, link) {
 
 function addNavigationLinksToZenPencils(){
     var dropdown_widget_div = document.getElementById("ceo_all_comics_dropdown_widget-10");
-    var dropdown_widget_div_bottom = document.getElementById("ceo_all_comics_dropdown_widget-11");
+    if (dropdown_widget_div == null) {
+        return ;
+    }
+
     var selectDiv = dropdown_widget_div.getElementsByTagName("select")[0];
+
+
+
+    var dropdown_widget_div_bottom = document.getElementById("ceo_all_comics_dropdown_widget-11");
     var selectDiv_bottom = null;
     if (dropdown_widget_div_bottom != null) {
         selectDiv_bottom =  dropdown_widget_div_bottom.getElementsByTagName("select")[0];
