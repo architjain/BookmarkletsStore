@@ -1,0 +1,11 @@
+{
+    "name": "ZenPencils Navigation",
+    "version": "0.0.0.1",
+	"short_name": "ZenPencilsNavigation",
+    "manifest_version": 2,
+    "description": "Add next/prev button to zenpencils.com !",
+    "content_scripts" : [{
+        "matches" : [ "http://zenpencils.com/comic/*"],
+        "js" : ["zenpencils_navigation.js"]
+    }]
+}
