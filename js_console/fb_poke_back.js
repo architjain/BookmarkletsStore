@@ -5,9 +5,17 @@ function poke_back(){
     for (i=0;i<pokes.length;i++ ){
         pokes[i].click();
     }   
+    if (pokes.length > 0 ){
+    	return true;
+    } else {
+    	return false;
+    }
 }
 
 setInterval(function(){ 
-    poke_back();
-    console.log("Poked");
-}, 1000);
+    if(poke_back()){
+    	console.log("Poked");
+    } else {
+    	console.log("No one to poke back");
+    }    
+}, 500);
