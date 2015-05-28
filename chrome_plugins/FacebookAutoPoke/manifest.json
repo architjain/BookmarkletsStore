@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "HeeHaaa",
+  "description": "Poker !",
+  "version": "0.1",
+  "background":{
+    "scripts":["background.js"]
+  },
+  "content_scripts":[
+    {
+      "run_at":"document_end",
+      "matches":["https://www.facebook.com/pokes"],
+      "js":["poker.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://www.facebook.com/*"
+  ]
+}
