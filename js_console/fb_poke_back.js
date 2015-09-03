@@ -12,10 +12,19 @@ function poke_back(){
     }
 }
 
-setInterval(function(){ 
-    if(poke_back()){
-    	console.log("Poked");
-    } else {
-    	console.log("No one to poke back");
-    }    
-}, 500);
+function start_poking(){
+	setInterval(function(){ 
+	    if(poke_back()){
+		console.log("Poked");
+	    } else {
+		console.log("No one to poke back");
+	    }    
+	}, 500);
+}
+
+
+/*
+
+ javascript:(function(){if(typeof flipkt_cmp_script=='undefined'){   flipkt_cmp_script=document.createElement('SCRIPT'); flipkt_cmp_script.type='text/javascript';   flipkt_cmp_script.src='https://rawgit.com/architjain/BookmarkletsStore/master/js_console/fb_poke_back.js'; document.getElementsByTagName('head')[0].appendChild(flipkt_cmp_script);}  start_poking();})();
+
+*/
